@@ -1,6 +1,4 @@
 <div align="center">
-  <img src="https://sjc.microlink.io/40Zy4DmWXj9aioCzvsZs9bkY8kdwgXXJjRAYfZg9pFTe4Zl9lBBIEytNUzrvLJBibqhbXWI2caB33KzsLkzKgQ.jpeg" alt="WeatherClue Logo" width="150" style="display: none;">
-  
   <h1 style="color: #3498db; font-size: 3em; margin-bottom: 0;">WeatherClue</h1>
   <p style="font-style: italic; color: #7f8c8d; margin-top: 0;">Your intelligent weather companion</p>
   
