@@ -30,7 +30,7 @@ Check out the live version of WeatherClue [here](https://harshk213.github.io/Wea
 ## 🖼️ Screenshots
 
 <div align="center" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; margin: 20px 0;">
-  <img src="/home/akio/Projects/Weather/image/Screenshot.png" alt="WeatherClue Screenshot" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); max-width: 400px;">
+  <img src="/image/Screenshot.png" alt="WeatherClue Screenshot" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); max-width: 400px;">
 </div>
 
 ## 🛠️ Technologies Used
