@@ -77,64 +77,6 @@ Contributions are welcome! Feel free to:
 5. Push to the branch (`git push origin feature/amazing-feature`)
 6. Open a Pull Request
 
-### Creating a Modern README for WeatherClue
-
-I'll create a stylish README.md file for your WeatherClue application that will look great on GitHub. The README will include CSS styling within the markdown to give it a modern appearance.
-
-```markdown project="WeatherClue" file="README.md"
-...
-```
-
-2. **Navigate to the project directory**
-
-```shellscript
-cd WeatherClue
-```
-
-
-3. **Open the project**
-
-1. Open `index.html` in your preferred browser
-2. Or use a local development server:
-
-```shellscript
-npx serve
-```
-
-
-
-
-
-
-
-## 🔧 Configuration
-
-To use the weather API functionality, you'll need to:
-
-1. Sign up for a free API key at [Weather API Provider]
-2. Create a `config.js` file in the project root
-3. Add your API key:
-
-```javascript
-const CONFIG = {
-  API_KEY: 'your_api_key_here'
-};
-```
-
-
-
-
-## 🤝 Contributing
-
-Contributions are welcome! Feel free to:
-
-1. Fork the repository
-2. Create a new branch (`git checkout -b feature/amazing-feature`)
-3. Make your changes
-4. Commit your changes (`git commit -m 'Add some amazing feature'`)
-5. Push to the branch (`git push origin feature/amazing-feature`)
-6. Open a Pull Request
-
 
 ## 📞 Contact
 
