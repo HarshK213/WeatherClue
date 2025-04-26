@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@400..900&family=Martian+Mono:wght@100..800&display=swap');
+
+*{
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+
+body{
+  background-image: url("image/painting-mountain-lake-with-mountain-background.jpg");
+  background-repeat: repeat-x;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow-y:hidden;
+  font-family: Gabarito;
+  border: 0px;
+  color: floralwhite;
+}
+
+main{
+  width: 700px;
+  height: 480px;
+  background-color: #00000070;
+  border-radius: 20px;
+  z-index: inherit;
+  backdrop-filter:blur(4px);
+}
+
+#search_bar{
+  width: 50%;
+  display: flex;
+  margin: 10px;
+  padding: 10px;
+  gap: 30px;
+  border-radius: 27.5px;
+  justify-self: center;
+  justify-content: center;
+  background-color: #0000002c;
+  /* align-items: center; */
+}
+
+#search_bar input{
+  height: 35px;
+  width: 300px;
+  border-radius: 17.5px;
+  padding-left: 15px;
+  color: black;
+  border-style: none;
+  font-size: 1rem;
+}
+
+#search_bar button{
+  height: 35px;
+  width: 35px;
+  background-color: #575757;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-style: none;
+}
+
+#search_bar button img{
+  height: 70%;
+}
+
+#weather_info{
+  display: flex;
+  padding: 20px;
+  border-radius: 20px;
+
+}
+
+#main_display{
+  height: 350px;
+  width: 250px;
+}
+
+#weather_cond{
+  width: 100%;
+  height: 65%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#weather_cond img{
+  width:150px;
+  height: 150px;
+}
+
+#weather_cond span{
+  font-size: 1.5rem;
+}
+
+#place_temp{
+  height: 35%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#temp{
+  font-size: 3.5rem;
+}
+
+#city{
+  font-size: 1.5rem ;
+}
+
+#info{
+  height: 350px;
+  width: 350px;
+  display:grid;
+  grid-template-columns: repeat(2,1fr);
+  gap:10px
+}
+
+.info_box{
+  width: 190px;
+  height: 80px;
+  border-radius: 10px;
+  background-color: #00000018;
+  display: flex;
+  align-self: center;
+  justify-self: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.info_box div{
+  width: 75%;
+  height: 70%;
+  display: flex;
+  justify-content:space-evenly;
+  align-items: center;
+}
+
+.info_box div img{
+  width:40px;
+  height: 40px;
+}
+
+.info_title{
+  height: 30%;
+  align-self: center;
+  font-size: 1rem;
+}

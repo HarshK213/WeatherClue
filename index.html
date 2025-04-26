@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Card</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body ">
+
+    <main>
+
+        <div id="search_bar">
+            <input type="text" placeholder="Enter Your city" id="city_name" autocomplete="off">
+            <button  type="button">
+                <img src="https://img.icons8.com/?size=100&id=59878&format=png&color=FFFFFF">
+            </button>
+        </div>
+
+        <div id="weather_info">
+
+            <div id="main_display">
+
+                <div id="weather_cond">
+                    <img id="weather_img" src="https://img.icons8.com/?size=100&id=IL2szZWdo0Bo&format=png&color=000000">
+                    <span id="weather_type">Cold</span>
+                </div>
+
+                <div id="place_temp">
+                    <p id="temp">22&deg;c</p>
+                    <p id="city">Delhi</p>
+                </div>
+
+            </div>
+
+            <div id="info">              
+
+                <div id="humidity" class="info_box">
+                    <div>
+                        <img src="https://img.icons8.com/?size=100&id=18504&format=png&color=FFFFFF" alt="">
+                        <p id="humidity_measure">57%</p>
+                    </div>
+                    <p class="info_title">Humidity</p>
+                </div>
+
+                <div id="windspeed" class="info_box">
+                    <div>
+                        <img src="https://img.icons8.com/?size=100&id=31842&format=png&color=FFFFFF">
+                        <p id="wind_measure">57%</p>
+                    </div>
+                    <p class="info_title">Wind Speed</p>
+                </div>
+
+                <div id="visiblity" class="info_box">
+                    <div>
+                        <img src="https://img.icons8.com/?size=100&id=qakgRGJ6YfEY&format=png&color=FFFFFF">
+                        <p id="visiblity_measure">57%</p>
+                    </div>
+                    <p class="info_title">Visiblity</p>
+                </div>
+
+                <div id="pressure" class="info_box">
+                    <div>
+                        <img src="https://img.icons8.com/?size=100&id=6980&format=png&color=FFFFFF">
+                        <p id="pressure_measure">57%</p>
+                    </div>
+                    <p class="info_title">Pressure</p>
+                </div>
+
+                <div id="sunrise" class="info_box">
+                    <div>
+                        <img src="https://img.icons8.com/?size=100&id=3454&format=png&color=FFFFFF">
+                        <p id="sunrise_time">57%</p>
+                    </div>
+                    <p class="info_title">Sun Rise</p>
+                </div>
+
+                <div id="sunset" class="info_box">
+                    <div>
+                        <img src="https://img.icons8.com/?size=100&id=3455&format=png&color=FFFFFF" alt="">
+                        <p id="sunset_time">57%</p>
+                    </div>
+                    <p class="info_title">Sun Set</p>
+                </div>
+
+            </div>
+
+        </div>   
+
+    </main>
+
+    
+
+</body>
+
+<script src="./config.js"></script>
+<script src="./script.js"></script>
+
+</html>
